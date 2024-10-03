@@ -1,0 +1,9 @@
+1. **Test the welcome endpoint:**
+   curl http://127.0.0.1:8080/
+   # Expected response:
+   # {"message":"Welcome to R-TUBE Platform"}
+
+2. **Interact with the AI Agent:**
+   curl -X POST "http://127.0.0.1:8080/ai-agent" -H "Content-Type: application/json" -d '{"user_input": "Hello, AI!"}'
+   # Expected response:
+   # {"response":"I'm not sure if I'm more impressed by the fact that you can see the future or the fact that you can see the future."}
