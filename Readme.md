@@ -1,10 +1,24 @@
 ## Directory Structure
-
+```
 r-tube-backend/
 │
 ├── main.py                    # Entry point for the application
 ├── requirements.txt           # Dependencies
 ├── .env                       # Environment variables
+│
+├── release/
+│   ├── prototype/
+│   │   ├── README.md            # Documentation for prototype version
+│   │   └── curl_commands.txt     # Curl commands for prototype version
+│   ├── initial/
+│   │   ├── README.md            # Documentation for initial version
+│   │   └── curl_commands.txt     # Curl commands for initial version
+│   ├── stable/
+│   │   ├── README.md            # Documentation for stable version
+│   │   └── curl_commands.txt     # Curl commands for stable version
+│   └── final/
+│       ├── README.md            # Documentation for final version
+│       └── curl_commands.txt     # Curl commands for final version
 │
 ├── wrappers/                  # Wrapper package
 │   ├── __init__.py
@@ -28,3 +42,4 @@ r-tube-backend/
     ├── __init__.py
     ├── helpers.py             # Helper functions
     └── logging.py             # Logging setup
+```
